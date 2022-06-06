@@ -1,0 +1,200 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&family=Space+Grotesk:wght@400;500;600&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+    background-color: #3B5971;
+}
+.body{
+    position: relative;
+}
+.background-content{
+    position: absolute;
+    width: 1024px;
+    height: 849px;
+    background: #1C233D;
+    /* margin: 0 auto; */
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;  
+}
+.header-content{
+    color: #E5E5E5;
+    padding: 2rem 4rem;
+    display: flex;
+    cursor: pointer;
+
+
+}
+.content-details li{
+    display: inline-block;
+    padding-right: 2rem;
+    text-transform: capitalize;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+.content-details li:first-child{
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.2rem;
+}
+.content-details li:nth-child(2){
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+.search-content{
+    /* text-align: center; */
+}
+.search-text{
+    padding: 1rem 3rem;
+    background: #1C233D;
+    border:solid 1px #ccc;
+    border-radius: 1rem;
+}
+::placeholder{
+    color: #E5E5E5;
+
+}
+.content-sig{
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 9rem;
+}
+.content-sig:hover{
+    cursor: pointer;
+}
+.nav-content{
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 8rem;
+    justify-content: space-between;
+}
+.content-right{
+    width: 50%;
+}
+.left-dis{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+.left-digital{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.content-dis{
+    background: linear-gradient(85.76deg, rgba(191, 196, 238, 0.0945738) -105.02%, #C367E6 10.94%, rgba(190, 206, 239, 0) 121.57%);
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 1rem;
+}
+.left-follow{
+    margin-top: 5rem;
+
+}
+.follow-content li{
+    display: inline-block;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-right: 3rem;
+}
+.left-imange{
+    background: #30384D;
+    border-radius: 10px;
+    width: 404px;
+    height: 420px;
+    background-image: url(./2022-06-06_22-10.png);
+    background-repeat: no-repeat;
+    padding: 1rem;
+    background-position: center;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    padding-left: 5rem;
+    position: relative;
+    top: 20rem;
+    left: 4rem;
+
+}
+.image1{
+    width: 20%;
+    height: 100%;
+    background-image: url(./2022-06-06_22-15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image2{
+    width: 20%;
+    height: 100%;
+    background-image: url(./2022-06-06_22-24.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image3{
+    width: 20%;
+    height: 100%;
+    background-image: url(./2022-06-06_22-24_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image4{
+    width: 20%;
+    height: 100%;
+    background-image: url(./2022-06-06_22-24_2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h2{
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    position: absolute;
+    color: #FFFFFF;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
